@@ -73,23 +73,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DataListCategoryPage.aspx" />
-    <Content Include="DataListPage.aspx" />
+    <Content Include="VeriListeleyiciler\DataListCategoryPage.aspx" />
+    <Content Include="VeriListeleyiciler\DataListPage.aspx" />
+    <Content Include="VeriListeleyiciler\GridViewCategoryPage.aspx" />
+    <Content Include="VeriListeleyiciler\GridViewPage.aspx" />
+    <Content Include="VeriListeleyiciler\GridViewPage2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataListCategoryPage.aspx.cs">
+    <Compile Include="VeriListeleyiciler\DataListCategoryPage.aspx.cs">
       <DependentUpon>DataListCategoryPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DataListCategoryPage.aspx.designer.cs">
+    <Compile Include="VeriListeleyiciler\DataListCategoryPage.aspx.designer.cs">
       <DependentUpon>DataListCategoryPage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="DataListPage.aspx.cs">
+    <Compile Include="VeriListeleyiciler\DataListPage.aspx.cs">
       <DependentUpon>DataListPage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="DataListPage.aspx.designer.cs">
+    <Compile Include="VeriListeleyiciler\DataListPage.aspx.designer.cs">
       <DependentUpon>DataListPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Models\Alphabetical_list_of_product.cs" />
@@ -154,6 +157,27 @@
     </Compile>
     <Compile Include="Site1.Master.designer.cs">
       <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="VeriListeleyiciler\GridViewCategoryPage.aspx.cs">
+      <DependentUpon>GridViewCategoryPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VeriListeleyiciler\GridViewCategoryPage.aspx.designer.cs">
+      <DependentUpon>GridViewCategoryPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VeriListeleyiciler\GridViewPage.aspx.cs">
+      <DependentUpon>GridViewPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VeriListeleyiciler\GridViewPage.aspx.designer.cs">
+      <DependentUpon>GridViewPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VeriListeleyiciler\GridViewPage2.aspx.cs">
+      <DependentUpon>GridViewPage2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VeriListeleyiciler\GridViewPage2.aspx.designer.cs">
+      <DependentUpon>GridViewPage2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
