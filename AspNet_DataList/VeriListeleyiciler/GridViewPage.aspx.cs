@@ -21,7 +21,7 @@ namespace AspNet_DataList.VeriListeleyiciler
         private void ProductList()
         {
             GridView1.DataSource = ctx.Products.ToList();
-            GridView1.DataBind();
+            GridView1.DataBind(); 
         }
 
         protected void GridView1_RowEditing(object sender, GridViewEditEventArgs e)
